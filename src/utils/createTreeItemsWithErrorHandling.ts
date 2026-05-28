@@ -3,8 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
-import { AzExtParentTreeItem, AzExtTreeItem, InvalidTreeItem } from "@microsoft/vscode-azext-utils";
-import { isNullOrUndefined } from "util";
+import { AzExtParentTreeItem, AzExtTreeItem, InvalidTreeItem, isNullOrUndefined } from "@microsoft/vscode-azext-utils";
 import { localize } from "./localize";
 
 export async function createTreeItemsWithErrorHandling<TSource>(
